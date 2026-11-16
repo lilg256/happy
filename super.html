@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ELITE DRIVE UG | Supercar Rental - Real Life Project</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+body{background:#080808;color:white}
+nav{display:flex;justify-content:space-between;padding:20px 5%;align-items:center;position:fixed;width:100%;background:rgba(0,0,0,.8);backdrop-filter:blur(10px);z-index:100}
+.logo{font-weight:900;letter-spacing:3px;font-size:22px}
+.logo span{color:#ff2a2a}
+nav a{color:white;text-decoration:none;margin-left:25px;font-size:14px;letter-spacing:1px}
+.hero{height:100vh;background:linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.9)),url('https://images.unsplash.com/photo-1503376780353-7e6692767b70');background-size:cover;background-position:center;display:flex;align-items:center;padding:0 7%}
+.hero-text h1{font-size:70px;line-height:0.9;font-weight:900}
+.hero-text h1 span{color:#ff2a2a}
+.hero-text p{margin:20px 0;color:#ccc;max-width:500px;font-size:18px}
+.btn{padding:15px 35px;border:none;font-weight:bold;letter-spacing:1px;cursor:pointer;border-radius:4px}
+.btn-red{background:#ff2a2a;color:white}
+.btn-black{background:transparent;border:1px solid white;color:white;margin-left:10px}
+.section{padding:80px 7%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px;margin-top:30px}
+.card{background:#141414;border:1px solid #222;padding:30px;border-radius:15px;transition:.3s}
+.card:hover{border-color:#ff2a2a;transform:translateY(-5px)}
+.card h3{margin-bottom:10px}
+.card p{color:#999;line-height:1.6}
+.tag{color:#ff2a2a;font-size:12px;letter-spacing:2px;font-weight:bold}
+.problem-card{border-left:4px solid #ff2a2a}
+.solution-card{border-left:4px solid #22c55e}
+.car-card{background:#111;border-radius:15px;overflow:hidden}
+.car-card img{width:100%;height:220px;object-fit:cover}
+.car-card .info{padding:20px}
+.price{color:#ff2a2a;font-weight:bold;font-size:20px}
+table{width:100%;border-collapse:collapse;margin-top:30px}
+th,td{padding:18px;border-bottom:1px solid #222;text-align:left}
+th{color:#ff2a2a}
+.stats{display:flex;flex-wrap:wrap;gap:30px;justify-content:space-around;background:#ff2a2a;padding:40px;text-align:center}
+.footer{background:#0a0a0a;padding:40px 7%;text-align:center;color:#666}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">ELITE<span>DRIVE</span> UG</div>
+  <div>
+    <a href="#">FLEET</a>
+    <a href="#">HOW IT WORKS</a>
+    <a href="#">PROJECT DOCS</a>
+  </div>
+</nav>
+
+<div class="hero">
+  <div class="hero-text">
+    <p class="tag">FINAL YEAR PROJECT - REAL LIFE SOLUTION FOR UGANDA</p>
+    <h1>RENT THE<br><span>DREAM.</span></h1>
+    <p>First Supercar Rental Platform in Uganda. For weddings, music videos, business meetings & VIP tourism. No more borrowing cars from friends.</p>
+    <br>
+    <button class="btn btn-red">RENT NOW - 1 CLICK</button>
+    <button class="btn btn-black">WATCH FLEET</button>
+    <p style="margin-top:15px;font-size:13px">📍 Kampala | Entebbe | Mbarara</p>
+  </div>
+</div>
+
+<div class="stats">
+  <div><h1>UGX 15M</h1><p>Avg cost to import supercar - too high to own</p></div>
+  <div><h1>90%</h1><p>Weddings in UG want luxury car entry</p></div>
+  <div><h1>24/7</h1><p>GPS Tracked & Insured</p></div>
+</div>
+
+<div class="section">
+  <p class="tag">FIELD RESEARCH IN KAMPALA</p>
+  <h2 style="font-size:38px;margin:10px 0">Real Problems in Uganda We Solve</h2>
+  <div class="grid">
+    <div class="card problem-card">
+      <h3>❌ Problem 1: No Supercars for Hire</h3>
+      <p>In Uganda, you can find Toyota Harrier but not a Mustang, Porsche, G-Wagon for rent. People use fake decorations. Events lose class.</p>
+    </div>
+    <div class="card problem-card">
+      <h3>❌ Problem 2: Fraud & Trust</h3>
+      <p>Current car hire is WhatsApp based. Client sends money, car doesn't come. No contract, no insurance, no tracking.</p>
+    </div>
+    <div class="card problem-card">
+      <h3>❌ Problem 3: Owners Fear Theft</h3>
+      <p>People who own luxury cars in UG fear to rent them out - no GPS, no driver verification, no damage guarantee.</p>
+    </div>
+    <div class="card problem-card">
+      <h3>❌ Problem 4: Tourists Want Experience</h3>
+      <p>Muzungu tourists in Entebbe want to drive a luxury car through Murchison Falls, not a small Passo. No platform exists.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section" style="background:#101010">
+  <p class="tag">THE SOLUTION</p>
+  <h2 style="font-size:38px;margin:10px 0">What Our System Does</h2>
+  <div class="grid">
+    <div class="card solution-card"><h3>✅ Verified Booking + Contract</h3><p>Auto-generates rental agreement PDF with National ID verification. No more fraud.</p></div>
+    <div class="card solution-card"><h3>✅ Live GPS + Driver</h3><p>Every car has GPS + optional professional driver. Owner tracks car live from phone.</p></div>
+    <div class="card solution-card"><h3>✅ Mobile Money Payment</h3><p>Pay 30% deposit via MTN MoMo / Airtel Money to lock car. Balance on delivery. Built for UG.</p></div>
+    <div class="card solution-card"><h3>✅ Damage Insurance System</h3><p>System calculates refundable damage deposit and checks car condition photos before/after.</p></div>
+  </div>
+
+  <table>
+    <tr><th>System Feature</th><th>Real Impact</th></tr>
+    <tr><td>KYC Verification with NIN</td><td>Stops car theft and fake renters</td></tr>
+    <tr><td>Owner Dashboard</td><td>Car owners list their cars and earn 60% per trip</td></tr>
+    <tr><td>Wedding Package Calculator</td><td>Auto-calculates: Car + Driver + Decoration + Fuel for wedding</td></tr>
+    <tr><td>Review System</td><td>Builds trust like Uber - bad drivers/clients get blocked</td></tr>
+  </table>
+</div>
+
+<div class="section">
+  <p class="tag">LIVE FLEET</p>
+  <h2 style="font-size:38px">Choose Your Beast</h2>
+  <div class="grid">
+    <div class="car-card">
+      <img src="https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8">
+      <div class="info"><h3>Ford Mustang GT</h3><p style="color:#888">For music videos & birthdays</p><br><span class="price">UGX 800k / day</span><br><br><button class="btn btn-red" style="width:100%" onclick="alert('Booking request sent! Payment via MoMo to confirm.')">RENT THIS</button></div>
+    </div>
+    <div class="car-card">
+      <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a">
+      <div class="info"><h3>Mercedes G-Wagon</h3><p style="color:#888">Most wanted for weddings in UG</p><br><span class="price">UGX 1.5M / day</span><br><br><button class="btn btn-red" style="width:100%">RENT THIS</button></div>
+    </div>
+    <div class="car-card">
+      <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70">
+      <div class="info"><h3>Porsche 911 Carrera</h3><p style="color:#888">For VIPs, CEOs, Tourism</p><br><span class="price">UGX 1.2M / day</span><br><br><button class="btn btn-red" style="width:100%">RENT THIS</button></div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h3 style="color:white">ELITE DRIVE UG - PROJECT DOCUMENTATION READY</h3>
+  <p>Tech Stack: React + Node.js + MySQL + MTN MoMo API + Google Maps GPS API</p>
+  <p>Includes: ER Diagram, Use Case, Business Model for Uganda</p>
+  <p>Contact: [Your Name] | Final Year Project 2026</p>
+</div>
+
+</body>
+</html>

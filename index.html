@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StayEasy - Hotel Management System | Real Life Project</title>
+<style>
+  body{margin:0;font-family:Arial,sans-serif;background:#f5f7fb;color:#222}
+  header{background:#0f172a;color:white;padding:60px 20px;text-align:center}
+  header h1{font-size:42px;margin:0}
+  header p{font-size:18px;opacity:.9;margin-top:10px}
+  .btn{padding:12px 25px;background:#2563eb;color:white;border:none;border-radius:8px;font-size:16px;cursor:pointer;text-decoration:none;display:inline-block;margin:10px}
+  .section{padding:50px 20px;max-width:1100px;margin:auto}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px}
+  .card{background:white;padding:25px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.08)}
+  .card h3{margin-top:0;color:#2563eb}
+  .problem{background:#fff1f2;border-left:5px solid #ef4444}
+  .solution{background:#f0fdf4;border-left:5px solid #22c55e}
+  footer{background:#0f172a;color:white;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>StayEasy Hotel System</h1>
+  <p>A Real-Life Hotel Booking & Management Project</p>
+  <p>Final Year Project | Solves Real Hotel Problems in Uganda</p>
+  <br>
+  <a href="#demo" class="btn">Book a Room Now</a>
+  <a href="#problems" class="btn" style="background:white;color:#0f172a">See What It Solves</a>
+</header>
+
+<div class="section" id="problems">
+  <h2>Real Life Problems in Hotels Today</h2>
+  <div class="grid">
+    <div class="card problem"><h3>1. Manual Booking</h3><p>Hotels use books & pen. Leads to double-booking, lost records, and customer fights.</p></div>
+    <div class="card problem"><h3>2. No Online Presence</h3><p>Customers can't find rooms online. Hotel loses money to Booking.com hotels.</p></div>
+    <div class="card problem"><h3>3. No Records</h3><p>Owner doesn't know income, occupied rooms, staff performance.</p></div>
+    <div class="card problem"><h3>4. Slow Check-in/out</h3><p>Guests wait 30+ mins at reception because staff searches files manually.</p></div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>What Our System Solves</h2>
+  <div class="grid">
+    <div class="card solution"><h3>Online Booking 24/7</h3><p>Guest books from phone anytime. Automatic room availability check. No double booking.</p></div>
+    <div class="card solution"><h3>Admin Dashboard</h3><p>Owner sees: Total income today, rooms available, upcoming bookings, all in one page.</p></div>
+    <div class="card solution"><h3>Fast Check-In / Check-Out</h3><p>Scan booking ID and check-in in 10 seconds. System auto-calculates bill.</p></div>
+    <div class="card solution"><h3>Payment Integration</h3><p>Supports MTN Mobile Money, Airtel Money & Cash. Auto receipt generation.</p></div>
+    <div class="card solution"><h3>Customer Reviews</h3><p>Guests leave reviews, building trust for new customers.</p></div>
+    <div class="card solution"><h3>Report Generation</h3><p>Daily, monthly income reports for the manager to download as PDF/Excel.</p></div>
+  </div>
+</div>
+
+<div class="section" id="demo" style="background:white;border-radius:20px">
+  <h2 style="text-align:center">Try Live Demo Booking</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Deluxe Room - 150,000 UGX / night</h3>
+      <p>Free WiFi, AC, Breakfast, DSTV</p>
+      <button class="btn" onclick="alert('Booking Successful! This will connect to database in full project.')">Book Now</button>
+    </div>
+    <div class="card">
+      <h3>Executive Suite - 250,000 UGX / night</h3>
+      <p>King Bed, Jacuzzi, Office Desk, Balcony</p>
+      <button class="btn" onclick="alert('Booking Successful!')">Book Now</button>
+    </div>
+    <div class="card">
+      <h3>Single Room - 70,000 UGX / night</h3>
+      <p>Good for students & single travelers</p>
+      <button class="btn" onclick="alert('Booking Successful!')">Book Now</button>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>Project by: [Your Name] | StayEasy Hotel System | 2026</p>
+  <p>Tech Stack: HTML, CSS, JavaScript, PHP & MySQL</p>
+</footer>
+
+</body>
+</html>
